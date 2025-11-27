@@ -9,10 +9,67 @@ header{
     height: 720px;
     background-position: 0% 0% 800%;
     background-size: cover;
+    padding: 70px 140px;
 }
 .parte-superior{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.texto{
+    color: rgba(255, 255, 255, 0.848);
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+.contenedor h1{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 80px;
+    padding: 50px 0;
+    line-height: 90px;
+}
+.contenedor p{
+    color: white;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.contenedor button{
+    background-color: rgba(0, 255, 173);
+    border-style: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    margin-top: 50px;
+}
+.contenedor a{
+    color: rgba(23, 48, 70);
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.contenedor-uno-uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contenedor-uno h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 55px;
+    color: rgba(45, 44, 44);
+    text-align: center;
+    font-weight: 700;
+    margin: 150px 0 0 0;
+}
+.contenedor-uno-dos{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.contenedor-uno-dos img{
+    width: 220px;
 }
