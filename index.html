@@ -71,9 +71,12 @@
 
     <div class="contenedor-tres">
         <h2>Check our pricing</h2>
+    <div class="contenedor-principal">
         <div class="contenedor-pequeno">
-            <h2>STARTUP</h2>
-            <p>$ <p>0</p> /MO.</p>
+            <h3>STARTUP</h3>
+            <div class="precio">
+            <p>$ <p class="numero">0</p> <p>/ MO.</p></p>
+            </div>
             <ul>
                 <li>Up to 5 Documents</li>
                 <li>Up to 3 Reviews</li>
@@ -82,9 +85,11 @@
             </ul>
         <button><a href="#">Get Free</a></button>
         </div>
-        <div class="contenedor-pequeno">
-            <h2>PREMIUM</h2>
-            <p>$ <p>10</p> /MO.</p>
+        <div class="contenedor-pequenoo">
+            <h3>PREMIUM</h3>
+            <div class="precio">
+            <p>$ <p class="numero">10</p> <p>/ MO.</p></p>
+            </div>
             <ul>
                 <li>Up to 15 Documents</li>
                 <li>Up to 10 Reviews</li>
@@ -94,8 +99,10 @@
         <button><a href="#">Get Free</a></button>
         </div>
         <div class="contenedor-pequeno">
-            <h2>PROFESSIONAL</h2>
-            <p>$ <p>30</p> /MO.</p>
+            <h3>PROFESSIONAL</h3>
+            <div class="precio">
+            <p>$ <p class="numero">30</p> <p>/ MO.</p></p>
+            </div>
             <ul>
                 <li>Unlimited Documents</li>
                 <li>Unlimited Reviews</li>
@@ -104,6 +111,7 @@
             </ul>
         <button><a href="#">Get Free</a></button>
         </div>
+    </div>
     </div>
 
     <div class="contenedor-cuatro">
@@ -118,26 +126,37 @@
     <div class="contenedor-cinco">
         <div class="texto-cinco">
             <h1>Contact Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum enim voluptatem similique temporibus cum obcaecati corporis! Natus vel, omnis cupiditate expedita, minima accusamus animi iusto laborum laboriosam magnam, recusandae sapiente.</p>
-            <p>Email : company_email@com
-                Phone: 361-688-5824
-                Adress: 4826 White Avenue, Corpus Christi, Texas 
+            <p>Te iisque labitur eos, nec sale argumentum scribentur, augue disputando in vim. Erat fugit sit at, ius lorem.</p>
+            <p>
+                <ul>
+                <li>Email : company_email@com</li> 
+                <li>Phone : 361-688-5824</li> 
+                <li>Adress : 4826 White Avenue, Corpus Christi, Texas </li> 
+                </ul> 
             </p>
         </div>
+        <form action="">
         <div class="formulario">
-            <form action="">
-                <label for="">Your Name</label>
-                <input type="text">
+        <div class="fila">
+            <div class="campo">
+                <label for="name">Your Name</label>
+                <input type="text" id="name">
+            </div>
 
-                <label for="">Your Email</label>
-                <input type="text">
-
-                <label for="">Message</label>
-                <textarea name="" id=""></textarea>
-            </form>
-
-            <button>Submit</button>
+            <div class="campo">
+                <label for="email">Your Email</label>
+                <input type="email" id="email">
+            </div>
         </div>
+
+        <div class="campo">
+            <label for="msg">Message</label>
+            <textarea id="msg"></textarea>
+        </div>
+
+            <button class="btn-submit">Submit</button>
+        </div>
+        </form>
     </div>
 
     <footer>
@@ -145,10 +164,7 @@
             Copyright © 2018 Chen, Yi-Ya.
         </div>
         <div class="iconos">
-            <img src="assets/images/" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="assets/images/iconos.png" alt="">
         </div>
     </footer>
 </body>

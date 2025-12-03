@@ -80,11 +80,7 @@ header{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-}
-.contenedor-dos{
-    background-color: rgba(0, 255, 173);
-    clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0 100%);
-    z-index: -1;
+    background: linear-gradient(170deg, white 68%, #00ffad 45%);
 }
 .contenedor-dos-dos{
     display: flex;
@@ -97,7 +93,6 @@ header{
 }
 .texto-uno{
     padding: 250px 0px 30px 150px;
-    z-index: 2;
 }
 .texto-uno h2{
     font-family: "Open Sans", sans-serif;
@@ -125,10 +120,10 @@ header{
     
 }
 .imagen-dos{
-    padding: 100px 0px 30px 160px;
+    padding: 200px 0px 70px 160px;
 }
 .texto-dos{
-    padding: 100px 160px 30px 0px;
+    padding: 200px 160px 30px 0px;
 }
 .texto-dos h2{
     font-family: "Open Sans", sans-serif;
@@ -152,6 +147,199 @@ header{
     color: white;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
+    font-size: 17px;   
+}
+.contenedor-tres h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: rgba(45, 44, 44);
+    margin: 100px 0 70px 0;
+}
+.contenedor-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.precio{
+    display: flex;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.precio p{
+    align-self: baseline;
+}
+.numero{
+    font-size: 90px;
+}
+.contenedor-pequenoo{
+    background-color: rgba(25, 36, 64);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    width: 27%;
+    height: 500px;
+}
+.contenedor-pequenoo ul{
+    text-align: center;
+    list-style: none;
+    line-height: 34px;
+    margin-top: 10px;
+}
+.contenedor-pequenoo h3{
+    font-size: 25px;
+    margin-top: 40px;
+}
+.contenedor-pequenoo button{
+    background-color: rgba(0, 255, 173);
+    border-style: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    margin-top: 40px;
+}
+.contenedor-pequenoo a{
+    color: rgba(23, 48, 70);
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
     font-size: 17px;
-    
+}
+.contenedor-pequeno{
+    background-color: white;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    width: 20%;
+    height: 500px;
+}
+.contenedor-pequeno ul{
+    text-align: center;
+    list-style: none;
+    line-height: 34px;
+    margin-top: 10px;
+}
+.contenedor-pequeno h3{
+    font-size: 25px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+.contenedor-pequeno button{
+    background-color: white;
+    border-style: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    margin-top: 40px;
+    border: 3px solid rgba(23, 48, 70);
+}
+.contenedor-pequeno a{
+    color: rgba(23, 48, 70);
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.contenedor-cuatro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(236, 238, 239);
+    padding:  70px 0;
+}
+.contenedor-cinco{
+    background-image: url(../assets/images/contact-bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 570px;
+    background-position: 0% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+}
+.texto-cinco{
+    padding: 130px 0 0 150px;
+}
+.texto-cinco h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.texto-cinco p{
+    color: white;
+    width: 450px;
+    margin-bottom: 30px;
+}
+.texto-cinco ul{
+    color: white;
+    list-style: none;
+    line-height: 30px;
+}
+.parte-arriba{
+    display: flex;
+    flex-direction: row;
+}
+.formulario{
+    color: rgba(0, 255, 173);
+    font-family: "Open Sans", sans-serif;
+    padding: 150px 140px 0 0;
+}
+.fila{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 10px;
+}
+input{
+    background: transparent;
+    border-style: none;
+    border: 2px solid rgba(0, 255, 173);
+    border-radius: 5px;
+    height: 45px;
+    width: 300px;
+}
+textarea{
+    background: transparent;
+    border-style: none;
+    border: 2px solid rgba(0, 255, 173);
+    border-radius: 5px;
+    height: 90px;
+    width: 630px;
+}
+.formulario button{
+    background-color: rgba(0, 255, 173);
+    border-style: none;
+    padding: 10px 295px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: rgba(23, 48, 70);
+}
+footer{
+    background-color: rgba(25, 36, 64);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+}
+.texto-seis{
+    font-size: 17px;
+}
+.iconos img{
+    width: 240px;
 }
