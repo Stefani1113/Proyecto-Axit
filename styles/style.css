@@ -57,6 +57,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .contenedor-uno h1{
     font-family: "Open Sans", sans-serif;
@@ -342,4 +343,194 @@ footer{
 }
 .iconos img{
     width: 240px;
+}
+
+/*Media Queries*/
+@media(max-width: 1279px){
+    header{
+        padding: 50px 100px;
+    }
+    .contenedor-uno-uno{
+        row-gap: 30px;
+    }
+    .imagen-uno img{
+        width: 450px;
+    }
+    .imagen-uno{
+        padding: 150px 80px 30px 0;
+    }
+    .texto-uno{
+        padding: 120px 0px 30px 80px;
+    }
+    .texto-uno h2{
+        font-size: 40px;
+        width: 300px;
+    }
+    .imagen-dos{
+        padding: 100px 0px 70px 40px;
+    }
+    .imagen-dos img{
+        width: 450px;
+    }
+    .texto-dos{
+        padding: 100px 40px 30px 0px;
+    }
+    .texto-dos h2{
+        font-size: 40px;
+    }
+    .texto-cinco{
+        padding: 130px 0 0 80px;
+    }
+    .fila{
+        display: flex;
+        flex-direction: column;
+    }
+    textarea{
+        width: 300px;
+    }
+    .formulario button{
+        padding: 10px 120px;
+    }
+    .formulario{
+        padding: 150px 85px 0px 0;
+    }
+    .contenedor-cinco{
+        height: 600px;
+    }
+    footer{
+        padding: 30px 80px;
+    }
+}
+@media (max-width: 920px){
+    header{
+        padding: 30px 50px;
+        height: 750px;
+    }
+    .contenedor-uno h1{
+        font-size: 40px;
+    }
+    .contenedor-dos-uno{
+        flex-direction: column-reverse;
+    }
+    .contenedor-dos-dos{
+        flex-direction: column-reverse;
+    }
+    .imagen-uno{
+        padding: 0px 0px 0 200px;
+    }
+    .texto-uno{
+        padding: 120px 0px 0px 80px;
+    }
+    .imagen-dos{
+        padding: 0px 0px 30px 250px;
+    }
+    .texto-dos{
+        padding: 100px 0px 0px 80px;
+    }
+    .contenedor-cinco{
+        flex-direction: column;
+        height: 770px;
+    }
+    .texto-cinco{
+        padding: 80px 0 0 80px;
+    }
+    .texto-cinco p{
+        width: 600px;
+    }
+    .formulario{
+        padding: 0px 0px 50px 80px;
+    }
+    .fila{
+        flex-direction: row;
+    }
+    .formulario button{
+        padding: 10px 295px;
+    }
+    textarea{
+        width: 630px;
+    }
+}
+@media (max-width: 768px){
+    header{
+        background-position: 0% 0%;
+        height: 700px;
+    }
+    .contenedor h1{
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .contenedor-uno h1{
+        font-size: 35px;
+        margin: 100px 0 80px 0;
+    }
+    .imagen-uno{
+        padding: 0px 0px 0 40px;
+    }
+    .imagen-uno img{
+        width: 400px;
+    }
+    .contenedor-dos-uno{
+        background: linear-gradient(170deg, white 60%, #00ffad 45%);
+    }
+    .texto-uno{
+        padding: 120px 0px 0px 50px;
+    }
+    .texto-uno p{
+        width: 400px;
+    }
+    .imagen-dos{
+        padding: 0px 0px 40px 40px;
+    }
+    .imagen-dos img{
+        width: 400px;
+    }
+    .texto-dos{
+        padding: 80px 0px 40px 50px;
+    }
+    .texto-dos p{
+        width: 400px;
+    }
+    .contenedor-tres h2{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .contenedor-principal{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+        margin-bottom: 50px;
+    }
+    .contenedor-pequenoo{
+        width: 70%;
+    }
+    .contenedor-pequeno{
+        width: 70%;
+    }
+    .contenedor-cuatro{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .texto-cinco{
+        padding: 80px 0 0 40px;
+    }
+    .texto-cinco p{
+        width: 400px;
+    }
+    .fila{
+        display: flex;
+        flex-direction: column;
+    }
+    textarea{
+        width: 300px;
+    }
+    .formulario button{
+        padding: 10px 120px;
+    }
+    .formulario{
+        padding: 0px 85px 0px 40px;
+    }
+    .contenedor-cinco{
+        height: 700px;
+        padding-bottom: 150px;
+    }
 }
